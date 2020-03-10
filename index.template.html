@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Fuyutsuki Archive</title>
+        <style media="screen">
+        html {
+            font-family: 'PT Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+            font-size: 16px;
+        }
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+        .container {
+            max-width: 740px;
+            padding: 15px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0 0;
+        }
+        header h1 {
+            font-size: 26px;
+            line-height: 1.8em;
+            padding: 0;
+            margin: 0;
+        }
+        header p {
+            line-height: 1.8em;
+            padding: 5px 0 0;
+            margin: 0;
+        }
+        .content {
+            padding: 40px 0;
+        }
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #000;
+            line-height: 1.8em;
+            padding: 30px 0 10px;
+            margin: 0;
+        }
+        ul {
+            padding: 0 0 0 40px;
+            margin: 0;
+        }
+        li {
+            color: #333;
+            line-height: 1.8em;
+        }
+        li a {
+            color: #17E;
+        }
+        li a:visited {
+            color: #C2B;
+        }
+        .modifier-code {
+            font-family: monospace;
+            font-size: 14px;
+            font-weight: 400;
+            color: #909090;
+        }
+        .new::after, .draft::after {
+            font-size: 14px;
+            color: #FFF;
+            line-height: 18px;
+            border-radius: 3px;
+            display: inline-block;
+            padding: 1px 6px;
+            margin-left: 10px;
+        }
+        .new::after {
+            content: "new";
+            background-color: #F44;
+        }
+        .draft::after {
+            content: "draft";
+            background-color: #909090;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Fuyutsuki Archive</h1>
+            </header>
+            <div class="content">
+                <div>
+                    {{ LIST OF ARTICLES }}
+                </div>
+            </div>
+            <footer>
+                <div class="">
+                    © 2017-2020 Fuyutsuki
+                </div>
+                <div class="">
+                    Credits: Longshot, Xuanxuan
+                </div>
+            </footer>
+        </div>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111264498-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-111264498-1');
+        </script>
+    </body>
+</html>

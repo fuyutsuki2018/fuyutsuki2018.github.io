@@ -1,0 +1,29 @@
+{
+    "contents": [
+        {
+            "seriesName": "Interfamily",
+            "isSeries": true,
+            "contents": [
+                { "title": "Due Process", "filename": "lp804-0001", "fDraft": true, "fNew": false }
+            ]
+        },
+        {
+            "seriesName": "Love in the Time of COVID-19",
+            "isSeries": true,
+            "contents": [
+                { "title": "Chapter 01", "filename": "lp802-0001", "fDraft": false, "fNew": true },
+                { "title": "Chapter 02", "filename": "lp802-0002", "fDraft": false, "fNew": true },
+                { "title": "Chapter 03", "filename": "lp802-0003", "fDraft": false, "fNew": true },
+                { "title": "Chapter 04", "filename": "lp802-0004", "fDraft": false, "fNew": true }
+            ]
+        },
+        {
+            "seriesName": "An Adulthood Odyssey",
+            "isSeries": true,
+            "contents": [
+                { "title": "The (Not) First Contact", "filename": "lp803-0001", "fDraft": true, "fNew": false },
+                { "title": "Untitled Draft 2", "filename": "lp803-0002", "fDraft": true, "fNew": false }
+            ]
+        }
+    ]
+}

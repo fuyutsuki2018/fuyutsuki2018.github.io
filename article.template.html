@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>__SERIES_NAME_HUMANREADABLE__ - __ARTICLE_TITLE_HUMANREADABLE__ — Fuyutsuki Archive</title>
+        <style media="screen">
+        html {
+            font-family: 'PT Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+            font-size: 16px;
+        }
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+        .container {
+            max-width: 740px;
+            padding: 15px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0 0;
+        }
+        header h1 {
+            font-size: 26px;
+            line-height: 1.8em;
+            padding: 0;
+            margin: 0;
+        }
+        header h1 a {
+            color: inherit;
+            text-decoration: none;
+        }
+        header h2 {
+            font-size: 20px;
+            line-height: 1.8em;
+            padding: 0;
+            margin: 0;
+        }
+        header p {
+            line-height: 1.8em;
+            padding: 5px 0 0;
+            margin: 0;
+        }
+        .content {
+            padding: 40px 0;
+        }
+        .content p, .content nav {
+            font-family: 'PT Sans', 'SF UI Text', 'SF NS Text', 'Helvetica Neue', 'Helvetica', 'Open Sans', 'Arial', sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 1.8em;
+        }
+        @media screen and (max-width: 400px) {
+            .content p {
+                font-size: 20px;
+            }
+        }
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #000;
+            line-height: 1.8em;
+            padding: 30px 0 10px;
+            margin: 0;
+        }
+        ul {
+            padding: 0 0 0 40px;
+            margin: 0;
+        }
+        nav {
+            color: #333;
+            line-height: 1.8em;
+        }
+        nav a {
+            color: #17E;
+        }
+        nav a:visited {
+            color: #C2B;
+        }
+        aside {
+            font-family: monospace;
+            font-style: italic;
+            color: #777;
+            line-height: 1.8em;
+            text-align: center;
+        }
+        aside a {
+            color: inherit;
+            text-wrap: break-word;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1><a href="/">Fuyutsuki Archive</a></h1>
+                <h2>__SERIES_NAME_HUMANREADABLE__</h2>
+                <h2>__ARTICLE_TITLE_HUMANREADABLE__</h2>
+            </header>
+
+            <div class="content">
+                <article>
+                    {{ CONTENT }}
+                </article>
+            </div>
+
+            <div class="content">
+                <aside>* * * E O F * * *</aside>
+            </div>
+
+            <!-- NAV_START -->
+            <div class="content">
+                <nav>
+                    <!-- LINK_PREV_START -->
+                    <div class="nav-prev">Previous Chapter: <a href="{{URL_PREV}}">{{TITLE_PREV}}</a></div>
+                    <!-- LINK_PREV_END -->
+                    <!-- LINK_NEXT_START -->
+                    <div class="nav-next">Next Chapter: <a href="{{URL_NEXT}}">{{TITLE_NEXT}}</a></div>
+                    <!-- LINK_NEXT_END -->
+                </nav>
+            </div>
+            <!-- NAV_END -->
+
+            <div class="content">
+                <aside>
+                    The plain text version of this article can be found <a target="_blank" href="{{ PLAIN_TEXT_FILE_PATH }}">here</a>.
+                </aside>
+            </div>
+
+            <footer>
+                <div class="">
+                    © 2017-2020 Fuyutsuki
+                </div>
+            </footer>
+        </div>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111264498-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-111264498-1');
+        </script>
+    </body>
+</html>
